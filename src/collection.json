@@ -1,0 +1,19 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "ryan-collection": {
+      "description": "A blank schematic.",
+      "factory": "./ryan-collection/index#ryanCollection"
+    },
+    "create-file": {
+      "description": "A blank schematic.",
+      "factory": "./create-file/index#createFile",
+      "schema": "./create-file/schema.json",
+      "aliases": ["cf"]
+    },
+    "create-from-template": {
+      "description": "A blank schematic.",
+      "factory": "./create-from-template/index#createFromTemplate"
+    }
+  }
+}
