@@ -16,6 +16,12 @@
       "factory": "./create-from-template/index#createFromTemplate",
       "schema": "./create-from-template/schema.json",
       "aliases": ["cft"]
+    },
+    "overwrite-file": {
+      "description": "A blank schematic.",
+      "factory": "./overwrite-file/index#overwriteFile",
+      "schema": "./overwrite-file/schema.json",
+      "aliases": ["of"]
     }
   }
 }

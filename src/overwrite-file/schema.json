@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "my-collection-overwrite-file",
+  "title": "Overwrites a file",
+  "type": "object",
+  "properties": {
+    "path": {
+      "type": "string",
+      "description": "The file which we are changing.",
+      "x-prompt": "Enter the destination folder:"
+    }
+  },
+  "required": ["path"]
+}
