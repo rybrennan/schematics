@@ -13,7 +13,9 @@
     },
     "create-from-template": {
       "description": "A blank schematic.",
-      "factory": "./create-from-template/index#createFromTemplate"
+      "factory": "./create-from-template/index#createFromTemplate",
+      "schema": "./create-from-template/schema.json",
+      "aliases": ["cft"]
     }
   }
 }
