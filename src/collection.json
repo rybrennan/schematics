@@ -22,6 +22,12 @@
       "factory": "./overwrite-file/index#overwriteFile",
       "schema": "./overwrite-file/schema.json",
       "aliases": ["of"]
+    },
+    "update-recorder": {
+      "description": "A blank schematic.",
+      "factory": "./update-recorder/index#updateRecorder",
+      "schema": "./update-recorder/schema.json",
+      "aliases": ["ur"]
     }
   }
 }

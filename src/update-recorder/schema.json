@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "my-collection-update-recorder",
+  "title": "Updates a recorder",
+  "type": "object",
+  "properties": {
+    "path": {
+      "type": "string",
+      "description": "The file which we are changing.",
+      "x-prompt": "Enter the destination file path for updating recorder:"
+    }
+  },
+  "required": ["path"]
+}
