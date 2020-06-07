@@ -28,6 +28,12 @@
       "factory": "./update-recorder/index#updateRecorder",
       "schema": "./update-recorder/schema.json",
       "aliases": ["ur"]
+    },
+    "ts-ast": {
+      "description": "A blank schematic.",
+      "factory": "./ts-ast/index#tsAst",
+      "schema": "./ts-ast/schema.json",
+      "aliases": ["ast"]
     }
   }
 }
